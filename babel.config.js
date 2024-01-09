@@ -1,5 +1,10 @@
+const { defineConfig } = require('@vue/cli-service')
+
+
+module.exports = defineConfig({
+
+})
+
 module.exports = {
-  presets: [
-    '@vue/cli-plugin-babel/preset'
-  ]
-}
+  presets: ["@babel/preset-env"]
+};
